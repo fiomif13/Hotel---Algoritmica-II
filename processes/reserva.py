@@ -42,7 +42,7 @@ class Reserva:
 
     def reservar(self):
         reservan = dict(
-            codReserva=self._codReserva,
+            cod_reserva=self._codReserva,
             titular=self._titular,
             fechaEnt=self._fechaEnt,
             fechaSal=self._fechaSal,
@@ -70,14 +70,14 @@ class Reserva:
             with open(file_path2, "w") as f:
                 json.dump(data, f, indent=4)
 
-    def mostrarReserva(codReserva):
+    def mostrarReserva(cod_reserva):
         with open(file_path1, "r") as f:
             data = json.load(f)
         for element in data:
-            if element["codReserva"] == codReserva:
+            if element["cod_reserva"] == codReserva:
                 print("------------------------------------------------------")
                 print("DATOS DE LA RESERVA DE LA HABITACION")
-                print("Codigo de reserva:" + str(element["codReserva"]))
+                print("Codigo de reserva:" + str(element["cod_reserva"]))
                 print("Titular:" + str(element["titular"]))
                 print("Fecha de entrada:" + str(element["fechaEnt"]))
                 print("Fecha de salida:" + str(element["fechaSal"]))

@@ -96,34 +96,31 @@ class Reserva:
         t = fSal - fEnt 
         return (t.days + 1)
 
-    def validarNumPers(codReserva):
+    def comprobar_personas(self, cod_reserva):
+        def calcular_personas(tipo_habitacion):
+            if tipo_habitacion == "Simple":
+                return 1
+            elif tipo_habitacion in ["Doble", "Matrimonial"]:
+                return 2
+            elif tipo_habitacion == "Triple":
+                return 3
+            return 0
+        def obtener_num_personas(tipo_habitaciones, data2):
+            return sum(calcular_personas(element["tipoHabitacion"])
+                    for element in data2
+                    if element["numHabitacion"] in tipo_habitaciones)
         with open(file_path1, "r") as f:
             data = json.load(f)
-
         for element in data:
-            if element["codReserva"] == codReserva:
-                n = element["canthabitaciones"]
+            if element["cod_reserva"] == cod_reserva:
                 tipo = element["habitacionesSolicitadas"]
                 cantpers = element["cantPersonas"]
-                NumPers = 0
                 with open(file_path2, "r") as g:
                     data2 = json.load(g)
-                for i in range(n):
-                    for element in data2:
-                        if element["numHabitacion"] == int(tipo[i]):
-                            if element["tipoHabitacion"] == "Simple":
-                                NumPers = NumPers + 1
-                            elif (
-                                element["tipoHabitacion"] == "Doble"
-                                or element["tipoHabitacion"] == "Matrimonial"
-                            ):
-                                NumPers = NumPers + 2
-                            elif element["tipoHabitacion"] == "Triple":
-                                NumPers = NumPers + 3
-        if cantpers > NumPers:
-            print(
-                "La cantidad de personas para la reserva es mayor al espacio pedido. Por favor pedir más habitaciones."
-            )
-            return False
-        else:
-            return True
+                num_pers = obtener_num_personas(tipo, data2)
+                if cantpers > num_pers:
+                    print("La cantidad de personas para la reserva es mayor al espacio pedido. Por favor pedir más habitaciones.")
+                    return False            
+                return True
+        return False
+

@@ -1,0 +1,38 @@
+[
+    {
+        "codReserva": "kz7lf",
+        "titular": "Jatmnk9",
+        "fechaEnt": "28-11-2022",
+        "fechaSal": "31-12-2022",
+        "numDias": 30,
+        "cantPersonas": 2,
+        "canthabitaciones": 3,
+        "habitacionesSolicitadas": [
+            "213"
+        ]
+    },
+    {
+        "codReserva": "phkdy",
+        "titular": "Ghopst",
+        "fechaEnt": "20-12-2022",
+        "fechaSal": "30-12-2022",
+        "numDias": 10,
+        "cantPersonas": 2,
+        "canthabitaciones": 1,
+        "habitacionesSolicitadas": [
+            "8"
+        ]
+    },
+    {
+        "codReserva": "18u9d",
+        "titular": "Ghopst",
+        "fechaEnt": "11-02-2022",
+        "fechaSal": "10-03-2022",
+        "numDias": 27,
+        "cantPersonas": 2,
+        "canthabitaciones": 1,
+        "habitacionesSolicitadas": [
+            "666"
+        ]
+    }
+]

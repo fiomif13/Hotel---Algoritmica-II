@@ -1,0 +1,22 @@
+[
+    {
+        "Codigo": "b829c528-cb9c-490c-9d7d-460982a874dc",
+        "Concepto": "concepto",
+        "Fecha": "15/12/2022 16:05:10",
+        "Monto": 100,
+        "MetodoPago": {
+            "Metodo de pago": "PayPal",
+            "Cuenta": "jatPayPal@gmail.com"
+        }
+    },
+    {
+        "Codigo": "b333b1e3-818c-4922-91b8-39e195eb7f8d",
+        "Concepto": "concepto",
+        "Fecha": "15/12/2022 16:15:46",
+        "Monto": 100,
+        "MetodoPago": {
+            "Metodo de pago": "Tarjeta",
+            "Cuenta": 4015745563599518
+        }
+    }
+]

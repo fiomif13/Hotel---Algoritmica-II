@@ -1,0 +1,72 @@
+[
+    {
+        "usuario": "JoxSam35",
+        "contrasenia": "pbkdf2:sha256:260000$Yu6QMwKyeUOTNAHa$bf0f1f793254e730713dbb7cc4e20208c9cc49bd682687e281defb6fe3804cd0",
+        "nombre": "Jose",
+        "apellido": "Quispe",
+        "correo": "jose.quispe@gmail.com",
+        "metpago": "PayPal",
+        "pago": [
+            {
+                "Codigo": "8206e8a5-f05f-4f4a-b581-d2a1af05c03d",
+                "Concepto": "concepto",
+                "Fecha": "15/12/2022 14:15:46",
+                "Monto": 100,
+                "MetodoPago": {
+                    "Metodo de pago": "PayPal",
+                    "Cuenta": "jatPayPal@gmail.com"
+                }
+            }
+        ]
+    },
+    {
+        "usuario": "Ghopst",
+        "contrasenia": "pbkdf2:sha256:260000$rglDLkVSldsPluUy$92c51c6d099143ac87b860d544bbb312df1deb326fd2561ee02e7b7156c78056",
+        "nombre": "Gianfranco",
+        "apellido": "Ore",
+        "correo": "gianfranco.ore@gmail.com",
+        "metpago": "Tarjeta",
+        "pago": [
+            {
+                "Codigo": "b829c528-cb9c-490c-9d7d-460982a874dc",
+                "Concepto": "concepto",
+                "Fecha": "15/12/2022 16:05:10",
+                "Monto": 100,
+                "MetodoPago": {
+                    "Metodo de pago": "PayPal",
+                    "Cuenta": "jatPayPal@gmail.com"
+                }
+            },
+            {
+                "Codigo": "b333b1e3-818c-4922-91b8-39e195eb7f8d",
+                "Concepto": "concepto",
+                "Fecha": "15/12/2022 16:15:46",
+                "Monto": 100,
+                "MetodoPago": {
+                    "Metodo de pago": "Tarjeta",
+                    "Cuenta": 4015745563599518
+                }
+            }
+        ]
+    },
+    {
+        "usuario": "Fiomisufiu",
+        "contrasenia": "pbkdf2:sha256:260000$6TAis7MRpxlDRFHM$2f7474582cd5350a48f1ae6975901d540ebf007a3c588ef8fe77d866dc31d72b",
+        "nombre": "Fiorella",
+        "apellido": "Mirano",
+        "correo": "fiorella.mirano@gmail.com",
+        "metpago": "PayPal",
+        "pago": [
+            {
+                "Codigo": "14d4e84b-4358-47cd-889c-04726c345d69",
+                "Concepto": "Pago por reserva de habitaciones: ['213']",
+                "Fecha": "15/12/2022 23:14:05",
+                "Monto": 200,
+                "MetodoPago": {
+                    "Metodo de pago": "PayPal",
+                    "Cuenta": "jatPayPal@gmail.com"
+                }
+            }
+        ]
+    }
+]

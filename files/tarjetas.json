@@ -1,0 +1,47 @@
+[
+    {
+        "emisor": "VISA",
+        "numTarjeta": "pbkdf2:sha256:260000$3c2y0zy1MvcHhBCw$988afef94c441be20f36f30ac1be2a5addaaccff7c0f3321f87e5a7d3d6f6c05",
+        "fechCaducidad": "pbkdf2:sha256:260000$kA0ugev4GCoCIdvt$f7e0e48739436dd7314567d128a5624a53cb9732c9b396c6aa815406cd7dcd71",
+        "codSeguridad": "pbkdf2:sha256:260000$2BJWK9dX80LlLpoW$4a6d528886155cdd47a14f957afaef8a0110331d87805227958d9ae6c69e01a1",
+        "nombTarjeta": "Jose",
+        "apellTarjeta": "Quispe",
+        "monto": 2500
+    },
+    {
+        "emisor": "VISA",
+        "numTarjeta": "pbkdf2:sha256:260000$cUtNmA9gObiLeGKj$518dd053289b998419a6a92b86b1dc5e37053883a3b4f4e3be2ad2ae5ecb22c4",
+        "fechCaducidad": "pbkdf2:sha256:260000$LzLviAknbB7xMgbk$c21daa92642d105e74751134e83206a86e64062e7ccabbe8bf11b620717bed4f",
+        "codSeguridad": "pbkdf2:sha256:260000$FWNree8piIqB6Edc$28f92f1c30d8b4c20369f099745cb3d1185c9559ee41987bbb16c235f821ebf0",
+        "nombTarjeta": "Gianfranco",
+        "apellTarjeta": "Ore",
+        "monto": 2400
+    },
+    {
+        "emisor": "VISA",
+        "numTarjeta": "pbkdf2:sha256:260000$eG1l9nOx6MBN3whT$185aea7ba9b10f553875d782e7417c7fd6e7ac30e49fcd99e2793aa4799fc1b3",
+        "fechCaducidad": "pbkdf2:sha256:260000$iu4rKD9y54JZZMGb$07dad0c21c604a741e53e30ede5812238418214eb513d57f137499fcbe94a571",
+        "codSeguridad": "pbkdf2:sha256:260000$3KVpIP1MmW5CcVLh$3809fe590ecec2b6b9ca9861ef36237a3daea84f3f1bad7a4b7572a554be29e5",
+        "nombTarjeta": "Fiorella",
+        "apellTarjeta": "Mirano",
+        "monto": 2500
+    },
+    {
+        "emisor": "MasterCard",
+        "numTarjeta": "pbkdf2:sha256:260000$3TyhjMzAEvk10xsK$8149c622c5f82977bdff5efab83e54f09ab8b729f98eae17a74b284595ea0b78",
+        "fechCaducidad": "pbkdf2:sha256:260000$PaHvAMuxTnVA5Q6N$b026a4148674a1fc8e45c2f4a3a757f337ccb9b5076ca7692b38120a08ad7cef",
+        "codSeguridad": "pbkdf2:sha256:260000$n6milTDPcHap5YBV$bffdbc78a4d9b87df89210dd4d3c15a2a24a4ef8d55adee3e0c746cf0f27789b",
+        "nombTarjeta": "Jatziry",
+        "apellTarjeta": "Wong",
+        "monto": 2500
+    },
+    {
+        "emisor": "MasterCard",
+        "numTarjeta": "pbkdf2:sha256:260000$OlRRpQ7tTBCN1rWI$d73e2ad2104b003975c41c611512553a1312041a5f5157a952540dc418681dee",
+        "fechCaducidad": "pbkdf2:sha256:260000$u5TBhmwwI0htvbXf$e1d5cdeee80ef1af0089bce620d57ca67f2a1423a611492c12294851a594ffc4",
+        "codSeguridad": "pbkdf2:sha256:260000$kaSijnfj8oVqONNa$615867665a26d1ff6194295cd4e69ed751b398e08bae9f8b9c29b8034e126699",
+        "nombTarjeta": "Pedro",
+        "apellTarjeta": "Barazorda",
+        "monto": 2500
+    }
+]

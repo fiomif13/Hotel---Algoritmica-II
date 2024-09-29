@@ -1,0 +1,16 @@
+[
+    {
+        "usuario": "Jatmnk9",
+        "contrasenia": "pbkdf2:sha256:260000$OfQAhGlvNOFZVpmV$52d140ee2741a1461663928f655eb5f9bc39d0fc8b0b192f7e73456314ba9da6",
+        "nombre": "Jatziry",
+        "apellido": "Sanchez",
+        "correo": "jatziry.sanchez@gmail.com"
+    },
+    {
+        "usuario": "Theratoffqa",
+        "contrasenia": "pbkdf2:sha256:260000$O45kStmkH88BAZRO$86d12c32d12405a2f3df4bd041a2088669b4e65061e4900f61c9cc5e7b37c8b6",
+        "nombre": "Pedro",
+        "apellido": "Barazorda",
+        "correo": "pedro.barazorda@gmail.com"
+    }
+]

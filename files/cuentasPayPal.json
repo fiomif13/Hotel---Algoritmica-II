@@ -1,0 +1,14 @@
+[
+    {
+        "correoPayPal": "pbkdf2:sha256:260000$FzaHEfaDiP5iTz5R$61b92cd828e0346ab04b7587eef6f0dd8141299d08678b150dbfa41fda6313be",
+        "contraseniaPayPal": "pbkdf2:sha256:260000$TWjOTBMHAlH3p4Vg$277416be8d5b2e9e55433b3aea65fea493992aeaff4bff6a880de34d4ec09ee7",
+        "estado": "inactiva",
+        "monto": 2500
+    },
+    {
+        "correoPayPal": "pbkdf2:sha256:260000$qw9eDHVgIlmIFx6D$890614df7f690b9318a94460115f6b74ad235ff61de04503f22dc97f132f373e",
+        "contraseniaPayPal": "pbkdf2:sha256:260000$N3O19gJPa2EWojBU$0fccb844059a880ab41254375351b1d936bb16541d68f73bc6ad27ec65b0f6ed",
+        "estado": "activa",
+        "monto": 2400
+    }
+]

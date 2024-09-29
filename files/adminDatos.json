@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Jennie",
+        "apellido": "Ruby",
+        "usuario": "adminpeluche1",
+        "contrasenia": "pbkdf2:sha256:260000$n9oJ0aMAFZ1pJHXk$a01f4d63b9cf5bacf8ce49454476d8d8c15a8f449e9fe212a659390defe8a096",
+        "correo": "adminjennie@peluche.com",
+        "llave_maestra": "pbkdf2:sha256:260000$xpKV5NlymEoxZkMW$fcebe7ea25ed41b079c1aa3d0582af548e241b8d3108401fcb41d77b9fa983e1"
+    },
+    {
+        "nombre": "Rose",
+        "apellido": "Park",
+        "usuario": "adminpeluche2",
+        "contrasenia": "pbkdf2:sha256:260000$qQM0diDGgyFtRB10$1b9e3ba03095298e8bb323ef744baa4cd5ce982be5377df4db2777a45c0aaf5e",
+        "correo": "adminrose@peluche.com",
+        "llave_maestra": "pbkdf2:sha256:260000$i4TOQwxbsgzfcAgh$9c24e001aeb1f6cfba43f2e9d7850221fcc40851d170c32c93842f8412c2194c"
+    }
+]
